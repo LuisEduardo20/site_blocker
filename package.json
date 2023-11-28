@@ -1,10 +1,10 @@
 {
-  "name": "site-blocker-app",
+  "name": "site_blocker-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build && node copy-manifest.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:site-blocker-app": "node dist/site-blocker-app/server/server.mjs"

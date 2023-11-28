@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Site Blocker",
+  "version": "1.0",
+  "description": "A site blocker",
+  "options_page": "./browser/index.html",
+  "browser_action": {
+    "default_popup": "./browser/index.html"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "author": "LuisEduardo20"
+}
